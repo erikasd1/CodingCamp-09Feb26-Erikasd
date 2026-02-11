@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile - Tech Solution</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#profile">Profil Kami</a></li>
+            <li><a href="#hq">Headquarter</a></li>
+            <li><a href="#message">Message Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="banner-text-top">
+            <h1>Hi <span id="username">Guest</span>, Welcome To Website</h1>
+            <p>Ini adalah website latihan pertama</p>
+        </div>
+        <div class="banner"></div>
+    </section>
+
+    <section id="profile">
+        <h2>Our Profile</h2>
+        <div class="profile-content">
+            <h3>About Company</h3>
+            <p>Kami adalah perusahaan yang bergerak di bidang teknologi digital, fokus pada solusi inovatif untuk masa depan.</p>
+            <div class="vision-mission">
+                <div>
+                    <h3>Vision</h3>
+                    <p>Menjadi perusahaan teknologi terbaik dan terdepan di Indonesia.</p>
+                </div>
+                <div>
+                    <h3>Mission</h3>
+                    <ul>
+                        <li>Menyediakan layanan berkualitas tinggi.</li>
+                        <li>Terus berinovasi dalam setiap proyek.</li>
+                        <li>Mengutamakan kepuasan pemangku kepentingan.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hq">
+        <h2>Our Headquarters</h2>
+        <div class="hq-container">
+            <div class="hq-item"><img src="images/jakarta.jpg" alt="JKT"><p>Jakarta</p></div>
+            <div class="hq-item"><img src="images/bandung.jpg" alt="BDG"><p>Bandung</p></div>
+            <div class="hq-item"><img src="images/karawang.jpg" alt="KRW"><p>Karawang</p></div>
+            <div class="hq-item"><img src="images/madiun.jpg" alt="MAD"><p>Madiun</p></div>
+        </div>
+    </section>
+
+    <section id="message">
+        <h2>Message Us</h2>
+        <div class="message-container">
+            <form id="contactForm">
+                <input type="text" id="nameInput" placeholder="Nama Lengkap" required>
+                <input type="email" id="emailInput" placeholder="Email" required>
+                <input type="tel" id="phoneInput" placeholder="Nomor Telepon (Contoh: 0812...)" required>
+                <div class="gender-selection">
+                    <label><input type="radio" name="gender" value="Laki-Laki" required> Laki-Laki</label>
+                    <label><input type="radio" name="gender" value="Perempuan"> Perempuan</label>
+                </div>
+                <textarea id="messageTextInput" placeholder="Pesan Anda" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="result">
+                <p style="color: #888;">Hasil formulir akan muncul di sini setelah klik Submit.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 20px; border-top: 1px solid #ddd;">
+        <p>Created By Erika Sita Dewi</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
